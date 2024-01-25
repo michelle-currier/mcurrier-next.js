@@ -8,17 +8,17 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://mcurrier.com'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Michelle Currier',
+    template: '%s | Michelle Currier',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'A curious designer who codes.',
   openGraph: {
     title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    description: 'A curious designer who codes.',
+    url: 'https://mcurrier',
+    siteName: 'Michelle Currier',
     locale: 'en_US',
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Michelle Currier',
     card: 'summary_large_image',
   },
   verification: {

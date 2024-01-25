@@ -8,14 +8,16 @@
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
 - **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
+- **Bun**: [Bun](https://bun.sh/docs/installation)
 
 ## Running Locally
 
 This application requires Node.js v18.17+.
 
 ```bash
-git clone https://github.com/leerob/leerob.io.git
-cd leerob.io
+git clone https://github.com/michelle-currier/mcurrier-next.js.git
+curl -fsSL https://bun.sh/install | bash 
+cd mcurrier-next.js
 bun install
 bun run setup # Remove all of my personal information
 bun dev
